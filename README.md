@@ -20,15 +20,10 @@
 
 ## 동작 영상
 <img src="https://github.com/minji1025/AVR_ATmega128_based_Fan_design/assets/163821451/82606b28-b32d-4a5e-a1fa-6906a6cfa106" width="20%" height="30%">
-1. Mode 변경 
-  OFF -> ON -> Manual Mode (Slow -> Middle -> Fast) -> Auto Mode
-2. Timer reset
-  8시간 이상 시 Timer 초기화
-3. Timer OFF
-  Timer 시간이 0시 0분 0초가 되면 FAN OFF
-4. Ultra Sonic FAN OFF
-  30 이상 시 초록불&FAN ON, 10~30 시 노란불&FAN ON, 10이하시 빨간불&FAN OFF
-5. Ultra Sonic OFF
-  거리 상관 없이 동작
-6. UART
-  Button과 동일하게 동작
+
+1. Mode 변경 : OFF -> ON -> Manual Mode (Slow -> Middle -> Fast) -> Auto Mode
+2. Timer reset : 8시간 이상 시 Timer 초기화
+3. Timer OFF : Timer 시간이 0시 0분 0초가 되면 FAN OFF
+4. Ultra Sonic FAN OFF : 30 이상 시 초록불&FAN ON, 10~30 시 노란불&FAN ON, 10이하시 빨간불&FAN OFF
+5. Ultra Sonic OFF : 거리 상관 없이 동작
+6. UART : Button과 동일하게 동작
