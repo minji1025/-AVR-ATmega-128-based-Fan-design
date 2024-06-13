@@ -19,7 +19,7 @@
 ![image](https://github.com/minji1025/AVR_ATmega128_based_Fan_design/assets/163821451/b999f382-a978-40ff-a1e7-5b1d801391ef)
 
 ## 동작 영상
-QR코드 추가
+https://github.com/minji1025/AVR_ATmega128_based_Fan_design/tree/Video
 
 1. Mode 변경 : OFF -> ON -> Manual Mode (Slow -> Middle -> Fast) -> Auto Mode
 2. Timer reset : 8시간 이상 시 Timer 초기화
